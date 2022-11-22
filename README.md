@@ -16,7 +16,7 @@
 [Maket](https://www.figma.com/file/TVS3xYD0H0x56FZc2ulddY/METHED.MUSIC-(Intensive)?node-id=0%3A1&t=tjQlhkEuO8TX7mNx-0)
 
 ### Useful links:
-- [Swiper is the most modern free mobile touch slider](https://swiperjs.com)
+- [Favicon Generator](https://realfavicongenerator.net/)
 
 ## Hosting
  
