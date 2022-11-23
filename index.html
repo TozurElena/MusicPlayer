@@ -38,11 +38,160 @@
   <h2 class="visually-hidden">List tracks</h2>
 
   <div class="catalog__container">
-    <button class="catalog__item track">
 
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/weekend.jpg" alt="weekend" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Save your tears</p>
+        <p class="track__artist">The weeknd</p>
+      </div>
     </button>
+
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/Imagine%20Dragons.jpg" alt="Follow You - Imagine Dragons" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Follow You</p>
+        <p class="track__artist">Imagine Dragons</p>
+      </div>
+    </button>
+
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/How%20Long.jpg" alt="Dirt Femme - How Long" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Dirt Femme</p>
+        <p class="track__artist">How Long</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/TomOdell.jpg" alt="Tom Odell width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Another Love</p>
+        <p class="track__artist">Tom Odell</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/LanaDelRey.jpg" alt="Born to Die - Lana Del Rey" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Born to Die</p>
+        <p class="track__artist">Lana Del Rey</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/Adele.jpg" alt="Hello - Adele" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Hello</p>
+        <p class="track__artist">Adele</p>
+      </div>
+    </button>
+
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/TomOdellANT.jpg" alt="Can't Pretend - Tom Odell" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Can't Pretend</p>
+        <p class="track__artist">Tom Odell</p>
+      </div>
+    </button>
+
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/LanaDelReyYang.jpg" alt="Young and Beautiful - Lana Del Rey" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Young and Beautiful</p>
+        <p class="track__artist">Lana Del Rey</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/SomeoneLikeYou.jpg" alt="Someone Like You - Adele" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Someone Like You</p>
+        <p class="track__artist">Adele</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/Natural.jpg" alt="Natural - Imagine Dragons" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Natural</p>
+        <p class="track__artist">Imagine Dragons</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/laughnowcrylater.jpg" alt="laugh now cry later - Drake" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Laugh now cry later</p>
+        <p class="track__artist">Drake</p>
+      </div>
+    </button>
+    <button class="catalog__item track">
+      <div class="track__img-wrap">
+        <img class="track__poster" src="assets/img/Frozen.jpg" alt="Frozen - Madonna" width="180" height="180">
+      </div>
+      <div class="track__info">
+        <p class="track__title">Frozen</p>
+        <p class="track__artist">Madonna</p>
+      </div>
+    </button>
+
   </div>
 </section>
 
+  <section class="player player_active">
+    <h2 class="visually-hidden">Player</h2>
+
+     <div class="player_container">
+       <div class="player__track__info track__info">
+         <p class="track-info__title">Frozen</p>
+         <p class="track-info__artist">Madonna</p>
+       </div>
+
+       <div class="player__controller">
+         <button class="player__icon player__icon_stop"></button>
+         <button class="player__icon player__icon_prev"></button>
+         <button class="player__icon player__icon_pause"></button>
+         <button class="player__icon player__icon_next"></button>
+         <button class="player__icon player__icon_like"></button>
+       </div>
+
+       <div class="player__progress-wrap">
+          <div class="player__progress">
+            <input class="player__progress-input" type="range" min="0" max="100" value="0">
+          </div>
+
+         <p class="player__time">
+           <span class="player__time-passed">0:24</span>
+           <span >/</span>
+           <span class="player__time-total">4:21</span>
+         </p>
+       </div>
+
+       <div class="player__volume-wrap">
+        <div class="player__volume">
+          <input class="player__volum-input" type="range" min="0" max="100" value="50">
+        </div>
+         <button class="player__icon player__icon-mute"></button>
+       </div>
+
+     </div>
+  </section>
 </body>
 </html>
