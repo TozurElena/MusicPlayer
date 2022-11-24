@@ -17,7 +17,7 @@
 
 ### Useful links:
 - [Favicon Generator](https://realfavicongenerator.net/)
-- [Squoosh](https://squoosh.app/)
+- [Squoosh - optimisation image](https://squoosh.app/)
 
 ## Hosting
  
