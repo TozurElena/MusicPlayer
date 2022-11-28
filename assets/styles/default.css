@@ -19,6 +19,7 @@ body {
     background-size: cover;
     background-attachment: fixed; /*fixed image pour scroll*/
   background-position: center;
+    padding-bottom: 172px;
 }
 
 img, svg {
