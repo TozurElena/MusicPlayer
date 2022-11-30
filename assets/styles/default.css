@@ -9,30 +9,31 @@ html {
 }
 
 body {
- min-width: 320px;
+  min-width: 320px;
   min-height: 100vh;
   line-height: 1.2;
   font-weight: 300;
   font-size: 16px;
   font-family: "SF UI Display", sans-serif;
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-    background-attachment: fixed; /*fixed image pour scroll*/
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed; /*fixed image pour scroll*/
   background-position: center;
-    padding-bottom: 172px;
+  padding-bottom: 172px;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
-    max-height: 100%;
+  max-height: 100%;
   height: auto;
 }
 
 button {
   cursor: pointer;
   padding: 0;
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 a {
@@ -56,4 +57,15 @@ p {
 .visually-hidden {
   position: fixed;
   transform: scale(0);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 217px;
+  }
+}
+@media (max-width: 560px) {
+  body {
+    padding-bottom: 187px;
+  }
 }
